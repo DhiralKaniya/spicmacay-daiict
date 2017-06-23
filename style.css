@@ -1,0 +1,23 @@
+html, body{
+    font-family: 'Quicksand', sans-serif;
+ }
+body.home {
+    background-image:url("images/backgroun.jfif"); 
+    background-repeat: no repeat;
+    background-size: cover;
+}
+image{
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+.para {
+
+
+}
+
+.spiclogo {
+	margin: auto;
+	display: block;
+}
