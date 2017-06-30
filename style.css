@@ -1,10 +1,11 @@
-html, body{
-    font-family: 'Quicksand', sans-serif;
- }
+
 body.home {
-    background-image:url("images/backgroun.jfif"); 
+    background-image:url("images/bg9.jpg"); 
     background-repeat: no repeat;
-    background-size: cover;
+    background-size: cover !important;
+    font-family: 'Quintessential', cursive;
+    font-size: 25px;
+
 }
 image{
 	left: 0;
@@ -13,11 +14,70 @@ image{
 	top: 0;
 }
 .para {
-
-
+	color:light blue;
+	font-family: 'Dosis', sans-serif;
+	font-size: 17px;
+	margin-left: 10px;
 }
 
 .spiclogo {
-	margin: auto;
+	margin-left: 43%;
+	margin-top: 0px;
+}
+.carousel-indicators li {
+	 visibility: hidden; 
+}
+.images img{
+	display: inline;
+	width: 22%;
+}
+#fii{
+
+}
+
+.nav li{
+	font-size: 15px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.modal-body{
+	font-size: 17px;
+}
+.expand img{
 	display: block;
+    margin: auto;
+	width: 60%;
+}
+.btn-link{
+	color: red;
+}
+.button:focus
+{
+   font-size: 13px;
+    color:orange;
+}
+.btn-link, .btn-link:hover, .btn-link:active, .btn-link:visited {
+    color: black !important;
+    font-size: 19px !important;
+}
+.img-rounded{
+	border-radius: 20px !important;
+}
+.photos{
+	float: left;
+	margin-left: 398px;
+	text-align: center;
+}
+.photos1{
+	float: left;
+	margin-top: 10px;
+	margin-left: 55px;
+	text-align: center;
+}
+.navbar-brand img{
+	margin: 0 !important;
+	padding: 0 !important;
+	border:0 !important;
+	height: 70px !important;
 }
