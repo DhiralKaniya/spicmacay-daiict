@@ -1,10 +1,11 @@
 
 body.home {
-    background-image:url("images/bg9.jpg"); 
+    background-image:url("images/bg1.jpg"); 
     background-repeat: no repeat;
     background-size: cover !important;
     font-family: 'Quintessential', cursive;
     font-size: 25px;
+    color: black;
 
 }
 image{
@@ -14,7 +15,7 @@ image{
 	top: 0;
 }
 .para {
-	color:light blue;
+	color:#D7DBDD;
 	font-family: 'Dosis', sans-serif;
 	font-size: 17px;
 	margin-left: 10px;
@@ -36,10 +37,7 @@ image{
 }
 
 .nav li{
-	font-size: 15px;
-}
-.navbar{
-	margin-bottom: 0px;
+	font-size: 20px;
 }
 .modal-body{
 	font-size: 17px;
@@ -75,9 +73,49 @@ image{
 	margin-left: 55px;
 	text-align: center;
 }
-.navbar-brand img{
-	margin: 0 !important;
-	padding: 0 !important;
-	border:0 !important;
-	height: 70px !important;
+.photos2{
+	float: left;
+	margin-top: 3px;
+	margin-left: 23px;
+	text-align: center;
+}
+.navbar-brand img{	
+	height: 50px !important;
+}
+#logo{
+	max-width: 180%;
+}
+#name{
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.wrap{
+	background-color: #ECF0F1;
+}
+.wrap-text{
+	color: black;
+	font-size: 15px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+.wrap-head{
+	background-color: #ECF0F1;
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+.modal-content{
+	
+	border: none !important;
+	
+}
+.modal-dialog{
+	margin: 0;
+}
+
+#contact{
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
 }
